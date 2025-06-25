@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+    padding: 0px;
+    margin: 0px;
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    font-family: "Caveat", cursive;
+    
+}
+nav{
+    display: flex;
+    background-color: grey;
+    width: 100%;
+    height: 53px;
+}
+.navbar:hover{
+    background-color: rgb(200, 198, 196);
+    font-size: 43px;
+    transition: all 0.3s ease;
+}
+.home span{
+    padding: 7px; 
+    font-size: 40px; 
+    font-family: "Walter Turncoat", cursive;
+}
+.home{
+    padding: 20px;
+    
+}
+.home p{
+    font-family: "Caveat", cursive;
+    font-size: 35px;
+    margin: 5px;
+} 
+.links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.links a:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.4);
+}
+.nav{
+    display: flex;
+    gap: 30px;
+    
+    padding-left: 10px;    
+}
+#cvheading{
+    
+    padding: 7px;
+    font-size: 47px; 
+    font-family: "Walter Turncoat", cursive;
+}
+.cv{
+    margin: 17px;
+    
+}
+.downloadcv{
+    display: flex;
+    justify-content: center;
+}
+.downloadcv button{
+    border: none;
+    border-radius: 45px;
+    background-color: gray;
+    height: 75px;
+    width: 500px;
+    font-family: "Caveat", cursive;
+    font-size: 50px;
+}
+.downloadcv button:hover{
+    height: 85px;
+    width: 550px;
+    font-size: 55px;
+    transition: all 0.3s ease;
+
+}
+#contactheading{
+    font-family: "Walter Turncoat", cursive;
+    font-size: 45px;
+    padding-left: 10px;
+}
+.response{
+    margin: 13px;
+}
+#name{
+    font-family: "Walter Turncoat", cursive;
+    font-size: 40px;
+}
+#nameinput{
+    width: 500px;
+    height: 40px;
+    font-family: "Caveat", cursive;
+    font-size: 40px;
+}
+#email{
+    font-family: "Walter Turncoat", cursive;
+    font-size: 40px;
+}
+#emailinput{
+    width: 500px;
+    height: 40px;
+    font-family: "Caveat", cursive;
+    font-size: 36px;
+}
+#feedback{
+    font-family: "Walter Turncoat", cursive;
+    font-size: 40px;
+}
+#feedbackinput{
+    width: 500px;
+    height: 200px;
+    font-family: "Caveat", cursive;
+    font-size: 35px;
+}
+#Submit{
+    border: none;
+    border-radius: 45px;
+    background-color: gray;
+    height: 75px;
+    width: 500px;
+    font-family: "Caveat", cursive;
+    font-size: 50px;
+}
+#Submit:hover{
+    border: none;
+    border-radius: 45px;
+    background-color: gray;
+    height: 80px;
+    width: 508px;
+    font-family: "Caveat", cursive;
+    font-size: 60px;
+    transition: all 0.1s ease;
+}
+.description{
+    margin: 10px;
+}
+#projectheading{
+    font-family: "Walter Turncoat", cursive;
+    font-size: 45px;
+}
+#projecttitle{
+    font-family: "Walter Turncoat", cursive;
+    font-size: 45px;
+}
+#projectdescription{
+    font-family: "Caveat", cursive;
+    font-size: 35px;
+}
+#proimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
